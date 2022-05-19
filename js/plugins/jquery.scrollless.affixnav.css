@@ -1,0 +1,68 @@
+table.affixnav-wrap td {
+    vertical-align: top;
+}
+
+.affixnav {
+    width: 180px;
+    padding-left: 12px;
+}
+
+.affixnav > div.affixnav-spacer {
+    height: 3px;
+}
+
+.affixnav > ul {
+    list-style: none outside none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.affixnav > ul > li {
+    color: black;
+    cursor: pointer;
+    padding-left: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.affixnav > ul > li:hover {
+    text-decoration:underline;
+}
+
+.affixnav > ul > li.level2 {
+    padding-left: 8px;
+    font-size: 85%;
+}
+.affixnav > ul > li.level3 {
+    padding-left: 16px;
+    font-size: 75%;
+}
+.affixnav > ul > li.level4 {
+    padding-left: 24px;
+    font-size: 65%;
+}
+.affixnav > ul > li.level5 {
+    padding-left: 32px;
+    font-size: 60%;
+}
+
+.affixnav > ul > li.affixnav-cursor {
+    color: gray;
+    text-decoration:underline;
+}
+
+.affixnav > div.affixnav-elps {
+    text-align: center;
+}
+
+.affixnav > div.affixnav-elps > span {
+    margin: 0;
+    color: gray;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.affixnav > div.affixnav-elps > span::before {
+    content: "\22EF";
+}
